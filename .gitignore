@@ -1,2 +1,4 @@
-/download-files
-/.idea
+/main/download-files
+error.log
+start_server.cmd
+/volta-assets
