@@ -34,7 +34,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
         // web worker
         PACKAGE_PATH = encodeURIComponent(location.pathname.toString().substring(0, location.pathname.toString().lastIndexOf('/')) + '/');
       }
-      var PACKAGE_NAME = 'E:/Website-SRC/voltaVERIFI/index.data';
+      var PACKAGE_NAME = 'G:/Other/doom-captcha-mods/voltaVERIFI/index.data';
       var REMOTE_PACKAGE_BASE = 'index.data';
       if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
         Module['locateFile'] = Module['locateFilePackage'];
@@ -165,10 +165,10 @@ var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
           var files = metadata['files'];
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
-          }          Module['removeRunDependency']('datafile_E:/Website-SRC/voltaVERIFI/index.data');
+          }          Module['removeRunDependency']('datafile_G:/Other/doom-captcha-mods/voltaVERIFI/index.data');
 
       };
-      Module['addRunDependency']('datafile_E:/Website-SRC/voltaVERIFI/index.data');
+      Module['addRunDependency']('datafile_G:/Other/doom-captcha-mods/voltaVERIFI/index.data');
 
       if (!Module.preloadResults) Module.preloadResults = {};
 
